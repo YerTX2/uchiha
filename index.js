@@ -13,15 +13,15 @@ const require = createRequire(__dirname);
 const { name, description, author, version } = require(join(__dirname, './package.json'));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
-say('Genesis\nMD', {
+say('uchiha', {
 font: 'block',
 align: 'center',
 colors: ['white']
 });
-say(`By • Angel OFC`, {
+say(`YerTX2`, {
 font: 'console',
 align: 'center',
-colors: ['yellow']
+colors: ['red']
 });
 var isRunning = false;
 function start(file) {
