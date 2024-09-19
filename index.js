@@ -16,7 +16,7 @@ const rl = createInterface(process.stdin, process.stdout);
 say('uchiha', {
 font: 'block',
 align: 'center',
-colors: ['white']
+colors: ['black']
 });
 say(`YerTX2`, {
 font: 'console',
