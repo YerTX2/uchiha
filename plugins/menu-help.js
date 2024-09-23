@@ -137,19 +137,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     });
 
     
-let urls = [
-"https://telegra.ph/file/fa9c0515f3b2f6df9f2bd.mp4",
-"https://telegra.ph/file/0779e78886636806c7422.mp4", 
-"https://telegra.ph/file/d791a9594ac30fbf97183.mp4", 
-"https://telegra.ph/file/6a0a1eabb9b50b9744543.mp4", 
-"https://telegra.ph/file/4f8676c687995ec8333cb.mp4",
-"https://telegra.ph/file/c4c2f5d0931ac30accca2.mp4", 
-"https://telegra.ph/file/0a9683f4aedcae4eca935.mp4", 
-"https://telegra.ph/file/3ba419b5970c3812dbac6.mp4", 
-"https://telegra.ph/file/c023e62cf15c5cb85caab.mp4", 
-"https://telegra.ph/file/636df9fe26f85b6fd2ade.mp4" 
-];
-let gifUrl = urls[Math.floor(Math.random() * urls.length)];
+let gifUrl = "https://telegra.ph/file/5d3143ba763dba19fa349.mp4";
 await conn.sendMessage(m.chat, {video: {url: gifUrl}, gifPlayback: true, caption: text.trim(), mentions: [m.sender]}, {quoted: m});
 
 handler.command = ["menu", "help", "menú"];
