@@ -41,7 +41,7 @@ global.vs = '1.5.0'
 //global.imagen1 = fs.readFileSync('./Menu.jpg')
 //global.imagen2 = fs.readFileSync('./Menu2.jpg')
 //global.imagen3 = fs.readFileSync('./Menu3.jpg')
-global.catalogo = fs.readFileSync('./media/catalogo.jpg')
+//global.catalogo = fs.readFileSync('./media/catalogo.jpg')
 
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 🪩
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51907376960-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'UCHIHA', orderTitle: 'packname', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
