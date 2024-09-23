@@ -1,5 +1,5 @@
 {
-"name": "Genesis-OFC",
+"name": "uchiha-bot🇦🇱",
 "version": "1.4.0", 
 "description": "Super Bot De WhatsApp",
 "main": "index.js",
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
 
-"homepage": "https://github.com/Angelito-OFC/GenesisBot-MD",
+"homepage": "https://github.com/YerTX2/uchiha-bot",
 "author": {
 "name": "Angelito-OFC" },
 
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Angelito-OFC/GenesisBot-MD.git" },
+"url": "git+https://github.com/YerTX2/uchiha-bot" },
 
 "bugs": {
-"url": "https://github.com/Angelito-OFC/GenesisBot-MD/issues" },
+"url": "https://github.com/YerTX2/uchiha-bot/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@adiwajshing/keyed-db": "^0.2.4",
