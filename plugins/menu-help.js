@@ -136,20 +136,21 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         ],
     });
 
-    let vid = "https://i.ibb.co/0Q43DP8/file.jpg";
-    let img = "https://i.ibb.co/64s1hm4/file.jpg";
-    let img2 = "https://i.ibb.co/k36Gf5P/file.jpg";
-    let img3 = "https://i.ibb.co/3BppnNL/file.jpg";
-    let img4 = "https://i.ibb.co/0Q43DP8/file.jpg";
-    let img5 = "https://i.ibb.co/64s1hm4/file.jpg";
-    let img6 = "https://i.ibb.co/3BppnNL/file.jpg";
-    let img8 = "https://i.ibb.co/0Q43DP8/file.jpg";
-    let img9 = "https://i.ibb.co/64s1hm4/file.jpg";
-    let img10 = "https://i.ibb.co/0Q43DP8/file.jpg";
-    let img11 = "https://i.ibb.co/0Q43DP8/file.jpg";
-
-    await conn.sendListB(m.chat, menu, txt, `「✶」𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓「✶」`, [vid, img, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
-};
+    
+let urls = [
+"https://telegra.ph/file/fa9c0515f3b2f6df9f2bd.mp4",
+"https://telegra.ph/file/0779e78886636806c7422.mp4", 
+"https://telegra.ph/file/d791a9594ac30fbf97183.mp4", 
+"https://telegra.ph/file/6a0a1eabb9b50b9744543.mp4", 
+"https://telegra.ph/file/4f8676c687995ec8333cb.mp4",
+"https://telegra.ph/file/c4c2f5d0931ac30accca2.mp4", 
+"https://telegra.ph/file/0a9683f4aedcae4eca935.mp4", 
+"https://telegra.ph/file/3ba419b5970c3812dbac6.mp4", 
+"https://telegra.ph/file/c023e62cf15c5cb85caab.mp4", 
+"https://telegra.ph/file/636df9fe26f85b6fd2ade.mp4" 
+];
+let gifUrl = urls[Math.floor(Math.random() * urls.length)];
+await conn.sendMessage(m.chat, {video: {url: gifUrl}, gifPlayback: true, caption: text.trim(), mentions: [m.sender]}, {quoted: m});
 
 handler.command = ["menu", "help", "menú"];
 
