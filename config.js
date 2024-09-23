@@ -39,7 +39,7 @@ global.vs = '1.5.0'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
  //global.imagen1 = fs.readFileSync('./Menu.jpg')
- global.imagen2 = fs.readFileSync('./Menu2.jpg')
+ //global.imagen2 = fs.readFileSync('./Menu2.jpg')
  global.imagen3 = fs.readFileSync('./Menu3.jpg')
  global.catalogo = fs.readFileSync('./media/catalogo.jpg')
 
