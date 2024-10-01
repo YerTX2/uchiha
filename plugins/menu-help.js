@@ -98,7 +98,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 id: `${usedPrefix}gamemenu`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 📥",
+                header: "🇦🇱m͜͡e͜͡n͜͡u͜͡ u͜͡c͜͡h͜͡i͜͡h͜͡a͜͡ d͜͡e͜͡s͜͡c͜͡a͜͡r͜͡g͜͡a͜͡s͜͡ 🇦🇱",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘥𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴`,
                 id: `${usedPrefix}menudl`,
