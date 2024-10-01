@@ -138,17 +138,17 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
     
 
-let vid = "https://i.ibb.co/0Q43DP8/file.jpg";
+let vid = "https://tinyurl.com/2bsjy5mu";
     let gifUrl = "https://tinyurl.com/2bsjy5mu";
-    let img2 = "https://tinyurl.com/22qr2yxq";
-    let img3 = "https://tinyurl.com/22qr2yxq";
-    let img4 = "https://tinyurl.com/22qr2yxq";
-    let img5 = "https://tinyurl.com/22qr2yxq";
-    let img6 = "https://tinyurl.com/22qr2yxq";
-    let img8 = "https://tinyurl.com/22qr2yxq";
-    let img9 = "https://tinyurl.com/22qr2yxq";
-    let img10 = "https://tinyurl.com/22qr2yxq";
-    let img11 = "https://tinyurl.com/22qr2yxq";
+    let img2 = "https://tinyurl.com/2bsjy5mu";
+    let img3 = "https://tinyurl.com/2bsjy5mu";
+    let img4 = "https://tinyurl.com/2bsjy5mu";
+    let img5 = "https://tinyurl.com/2bsjy5mu";
+    let img6 = "https://tinyurl.com/2bsjy5mu";
+    let img8 = "https://tinyurl.com/2bsjy5mu";
+    let img9 = "https://tinyurl.com/2bsjy5mu";
+    let img10 = "https://tinyurl.com/2bsjy5mu";
+    let img11 = "https://tinyurl.com/2bsjy5mu";
 
     await conn.sendListB(m.chat, menu, txt, `「✶」𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓「✶」`, [vid,  gifUrl, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
 };
