@@ -50,12 +50,12 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `Hola \`%name\` soy GenesisBot-MD, %greeting
+  before: `Hola \`%name\` ESTOY PARA AYUDARLE EN LO QUE NECESITE MI NOMBRE ES 是ᑌᑕᕼIᕼᗩ ​ BOT🇦🇱是, %greeting
 
 乂 _\`ᴜ\` \`ꜱ\` \`ᴜ\` \`ᴀ\` \`ʀ\` \`ɪ\` \`ᴏ\`_ 乂
 
 • _\`ɴᴏᴍʙʀᴇ\`_ :: %name
-• _\`ʙᴏᴛ\`_ :: GenesisBot-MD
+• _\`ʙᴏᴛ\`_ :: 是ᑌᑕᕼIᕼᗩ ​ BOT🇦🇱是
 • _\`ᴍᴏᴅᴏ\`_ :: Público
 • _\`ᴀᴄᴛɪᴠᴏ\`_ :: %muptime
 • _\`ᴜꜱᴜᴀʀɪᴏꜱ\`_ :: %totalreg
@@ -67,7 +67,7 @@ const defaultMenu = {
   header: '╭• •꒰─• *`%category`* ·ٜ۬･',
   body: '│ %cmd\n',
   footer: '╰• •───• •───• •───•\n',
-  after: `> BY GENESISBOT-MD X Angel-OFC`,
+  after: `> 是ᑌᑕᕼIᕼᗩ ​ BOT🇦🇱是 X`,
 }
 let ppp = 'https://i.ibb.co/PxFRy62/file.jpg'
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
