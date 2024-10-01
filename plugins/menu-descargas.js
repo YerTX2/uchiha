@@ -33,8 +33,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
 'dl': '𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒',
 }
-let gifUrl = "https://telegra.ph/file/5d3143ba763dba19fa349.mp4";
-await conn.sendMessage(m.chat, {video: {url: gifUrl}, gifPlayback: true, caption: text.trim(), mentions: [m.sender]}, {quoted: m});
+let img = 'https://i.ibb.co/ZWrFXrh/file.jpg'
 
 
   try {
@@ -206,9 +205,9 @@ await m.react('📥')
     throw e
   }
 }
-handler.help = ['menudl']
+handler.help = ['uchihaDescarga']
 handler.tags = ['main']
-handler.command = ['menudl']
+handler.command = ['uchihaDescarga']
 
 export default handler
 
