@@ -139,7 +139,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     
 
 let vid = "https://i.ibb.co/0Q43DP8/file.jpg";
-    let img = "https://tinyurl.com/22qr2yxq";
+    let img = "https://tinyurl.com/2bsjy5mu";
     let img2 = "https://tinyurl.com/22qr2yxq";
     let img3 = "https://tinyurl.com/22qr2yxq";
     let img4 = "https://tinyurl.com/22qr2yxq";
