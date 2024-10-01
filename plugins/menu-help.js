@@ -46,12 +46,12 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let totalreg = Object.keys(global.db.data.users).length;
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length;
 
-    m.react("🤍");
+    m.react("🇦🇱");
     let menu = ``;
 
     let txt = ""
-    txt += '`ᴄʀᴇᴀᴅᴏʀ ::`' + ` Angel-OFC\n`;
-    txt += '`ʙᴏᴛ ::`' + ` GenesisBot-MD\n`;
+    txt += '`ᴄʀᴇᴀᴅᴏʀ ::`' + ` Yer 🇦🇱\n`;
+    txt += '`ʙᴏᴛ ::`' + ` 是ᑌᑕᕼIᕼᗩ ​ BOT🇦🇱是\n`;
     txt += '`ꜰᴇᴄʜᴀ ::`' + ` ${fecha}\n`;
     txt += '`ᴠᴇʀꜱɪᴏɴ ::`' + ` ${vs}\n`;
     txt += `${sbot}\n`;
@@ -60,7 +60,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     txt += '`ᴠᴇʀɪꜰɪᴄᴀᴅᴏꜱ ::`' + ` ${rtotalreg}\n`;
     txt += '`ᴀᴄᴛɪᴠᴏ ::`' + ` ${uptime}\n`;
     txt += '`ᴄᴏɴᴛᴀᴄᴛᴏ ::` #owner\n\n';
-    txt += "> ʙʏ : ᴀɴɢᴇʟ ᴏꜰᴄ ʏ ᴛɪᴛᴀɴɪᴜᴍ ᴛᴇᴀᴍ";
+    txt += "> Yer🇦🇱⚡";
 
     let listSections = [];
 
@@ -150,7 +150,7 @@ let vid = "https://tinyurl.com/2bsjy5mu";
     let img10 = "https://tinyurl.com/2bsjy5mu";
     let img11 = "https://tinyurl.com/2bsjy5mu";
 
-    await conn.sendListB(m.chat, menu, txt, `「✶」𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓「✶」`, [vid,  gifUrl, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
+    await conn.sendListB(m.chat, menu, txt, ` MENÚ 是ᑌᑕᕼIᕼᗩ ​ BOT🇦🇱是 `, [vid,  gifUrl, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
 };
 
 
