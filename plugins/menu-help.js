@@ -61,15 +61,129 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     txt += '`ᴀᴄᴛɪᴠᴏ ::`' + ` ${uptime}\n`;
     txt += '`ᴄᴏɴᴛᴀᴄᴛᴏ ::` #owner\n\n';
     txt += "> Yer🇦🇱⚡";
-let img = await (await fetch(`https://qu.ax/mtM.jpg`)).buffer()
+    let listSections = [];
 
-   // await conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9, pp10, pp11, pp12, pp13, pp14, pp15].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
-    await conn.sendFile(m.chat, img, 'thumbnail.jpg', text.trim(), m, null, rcanal)
-   //await conn.sendAi(m.chat, botname, textbot, text.trim(), img, img, canal, estilo)
+        listSections.push({
+        title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular Génesis`,
+        rows: [
+            {
+                header: "𝗔𝗨𝗧𝗢 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗥 ✅",
+                title: "",
+                description: `Verificacion Automáticamente`,
+                id: `.reg ⿴⃟ٍࣽGenesϟs ︧ཾ✾▹ .18`,
+            },
+            {
+                header: "𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🤍",
+                title: "",
+                description: `𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘰𝘮𝘱𝘭𝘦𝘵𝘰`,
+                id: `.allmenu`,
+            },
+            {
+                header: "𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦 🔊",
+                title: "",
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘢𝘶𝘥𝘪𝘰𝘴`,
+                id: `${usedPrefix}menuaudios`,
+            },
+            {
+                header: "𝗠𝗘𝗡𝗨 𝗡𝗦𝗙𝗪 🔞",
+                title: "",
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘢𝘭𝘪𝘦𝘯𝘵𝘦`,
+                id: `${usedPrefix}labiblia`,
+            },
+            {
+                header: "𝗠𝗘𝗡𝗨 𝗝𝗨𝗘𝗚𝗢𝗦 🎮",
+                title: "",
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘫𝘶𝘦𝘨𝘰𝘴`,
+                id: `${usedPrefix}menugame`,
+            },
+            {
+                header: "𝗠𝗘𝗡𝗨 𝗔𝗡𝗜𝗠𝗘 🌸",
+                title: "",
+                description: `𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘢𝘯𝘪𝘮𝘦`,
+                id: `${usedPrefix}menugame`,
+            },
+            {
+                header: "𝗠𝗘𝗡𝗨 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 📥",
+                title: "",
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘥𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴`,
+                id: `${usedPrefix}menudl`,
+            },
+            {
+                header: "𝗠𝗘𝗡𝗨 𝗔𝗜 🤖",
+                title: "",
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘐𝘈-𝘉𝘰𝘵`,
+                id: `${usedPrefix}menuai`,
+            },
+            {
+                header: "𝗥𝗘𝗗𝗘𝗦 🍄",
+                title: "",
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘢𝘴 𝘳𝘦𝘥𝘦𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵`,
+                id: `${usedPrefix}redes`,
+            },
+            {
+                header: "𝗚𝗥𝗨𝗣𝗢𝗦 ☁️",
+                title: "",
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘰𝘴 𝘨𝘳𝘶𝘱𝘰𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵`,
+                id: `${usedPrefix}grupos`,
+            },
+        ],
+    });
 
-  } catch (e) {
-    conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
-    throw e
-  }
+    let vid = "https://iili.io/ds8UrPf.md.png";
+    let img = "https://iili.io/ds82dmX.md.png";
+    let img2 = "https://iili.io/ds8r8EG.md.png";
+    let img3 = "https://iili.io/ds8UrPf.md.png";
+    let img4 = "https://iili.io/ds82dmX.md.png";
+    let img5 = "https://iili.io/ds8r8EG.md.png";
+    let img6 = "https://iili.io/ds8UrPf.md.png";
+    let img8 = "https://iili.io/ds82dmX.md.png";
+    let img9 = "https://iili.io/ds8r8EG.md.png";
+    let img10 = "https://iili.io/ds8UrPf.md.png";
+    let img11 = "https://iili.io/ds82dmX.md.png";
+
+    await conn.sendListB(m.chat, menu, txt, ` 𓏲୭᳟🤍̸̷̸̷᮫᮫໋໋݂݂ׄׄ.𝐌𝐄𝐍𝐔𝐒 𝐋𝐈𝐒𝐓𓏲᭔᷼⁩`, [vid, img, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
+};
+
+handler.command = ["menu", "help", "menú"];
+
+export default handler;
+
+
+function clockString(ms) {
+  const h = Math.floor(ms / 3600000);
+  const m = Math.floor(ms / 60000) % 60;
+  const s = Math.floor(ms / 1000) % 60;
+  console.log({ ms, h, m, s });
+  return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(":");
 }
-   
+
+
+  var ase = new Date();
+  var hour = ase.getHours();
+switch(hour){
+  case 0: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌙'; break;
+  case 1: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 💤'; break;
+  case 2: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🦉'; break;
+  case 3: hour = 'Bᴜᴇɴᴏs Dɪᴀs ✨'; break;
+  case 4: hour = 'Bᴜᴇɴᴏs Dɪᴀs 💫'; break;
+  case 5: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌅'; break;
+  case 6: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌄'; break;
+  case 7: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌅'; break;
+  case 8: hour = 'Bᴜᴇɴᴏs Dɪᴀs 💫'; break;
+  case 9: hour = 'Bᴜᴇɴᴏs Dɪᴀs ✨'; break;
+  case 10: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌞'; break;
+  case 11: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌨'; break;
+  case 12: hour = 'Bᴜᴇɴᴏs Dɪᴀs ❄'; break;
+  case 13: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌤'; break;
+  case 14: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🌇'; break;
+  case 15: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🥀'; break;
+  case 16: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🌹'; break;
+  case 17: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🌆'; break;
+  case 18: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌙'; break;
+  case 19: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break;
+  case 20: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌌'; break;
+  case 21: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break;
+  case 22: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌙'; break;
+  case 23: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break;
+}
+  var greeting = hour;
